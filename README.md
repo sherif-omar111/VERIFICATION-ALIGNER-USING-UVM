@@ -15,8 +15,8 @@ Its purpose is to optimize writes in memory by performing only the writes best s
 ## 2. System Architecture:
 The aligner module uses two types of interfaces:
 
-### A standard AMBA 3 APB for accessing the registers.
-### Two interfaces using the same custom MD (Memory Data) protocol:
+#### A standard AMBA 3 APB for accessing the registers.
+#### Two interfaces using the same custom MD (Memory Data) protocol:
 
 An RX interface through which the Aligner receives the unaligned data.
 A TX interface through which the Aligner sends the aligned data.
