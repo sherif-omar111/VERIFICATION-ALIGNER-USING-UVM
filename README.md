@@ -82,4 +82,4 @@ The aligner module uses two types of interfaces:
 ![image]()
 
 ### 9.2 Code Coverage:
-![image](\)
+![image]()
