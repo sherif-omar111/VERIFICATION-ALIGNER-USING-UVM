@@ -1,6 +1,6 @@
 # Verification for Aligner using UVM systemverilog
-The Aligner module takes in an unaligned stream of data and outputs it as an aligned stream of data based on its configuration.
-Its purpose is to optimize writes in memory by performing only the writes best suited for the type of memory used in the system.
+- The Aligner module takes in an unaligned stream of data and outputs it as an aligned stream of data based on its configuration.
+- Its purpose is to optimize writes in memory by performing only the writes best suited for the type of memory used in the system.
 
 
 ## 1. Directories:
