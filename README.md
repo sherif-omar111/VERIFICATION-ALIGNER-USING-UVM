@@ -21,7 +21,7 @@ The aligner module uses two types of interfaces:
 - An RX interface through which the Aligner receives the unaligned data.
 - A TX interface through which the Aligner sends the aligned data.
 
-![image]()
+![image](images/block_diagram.PNG)
 
 ## 3. Interface signals:
 | Signal name   | Signal width | Description                      
@@ -52,7 +52,7 @@ The aligner module uses two types of interfaces:
 
 ## 4. UVM Architecture:
 
-![image]()
+![image](images/env.PNG)
 
 ## 5. Sequence items:
 
@@ -66,8 +66,6 @@ The aligner module uses two types of interfaces:
 | cfs_md_item_drv_master    |
 | cfs_md_item_drv_slave     |
 | cfs_md_item_mon           |
-
-
 
 ## 6. Sequences:
 
@@ -99,17 +97,18 @@ The aligner module uses two types of interfaces:
 | cfs_algn_test_random          |                                                        |
 | cfs_algn_test_random_rx_err   |                                                        |
 
-![image]()
+- test_random
+![image](images/random_test.PNG)
 
 ## 8. Assertions:
 
-![image]()
+- APB Assertions
+![image](images/apb_assertions.PNG)
+
+- MD Assertions
+![image](images/md_assertions.PNG)
 
 
 ## 9. Coverage:
 
-### 9.1 Functional Coverage:
-![image]()
-
-### 9.2 Code Coverage:
-![image]()
+![image](images/coverage.PNG)
