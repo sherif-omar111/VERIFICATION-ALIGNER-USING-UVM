@@ -1,0 +1,2 @@
+var g_data = {"24":[23,"apb_if",1],"25":[23,"md_rx_if",1],"26":[23,"md_tx_if",1],"32":[29,"rx_fifo",1],"33":[29,"tx_fifo",1],"29":[28,"core",1],"28":[23,"dut",1],"23":[-1,"testbench",1],"44":[-1,"uvm_ext_pkg",1],"45":[-1,"cfs_md_pkg",1],"46":[-1,"cfs_apb_pkg",1],"47":[-1,"cfs_algn_pkg",1]};
+processInstLinks(g_data);

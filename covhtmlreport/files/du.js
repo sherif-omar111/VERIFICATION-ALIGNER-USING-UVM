@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.cfs_algn_pkg","id":9,"zf":1,"tc":0.00,"g":0.00},{"n":"work.cfs_aligner_core","id":15,"zf":1,"tc":100.00,"a":100.00},{"n":"work.cfs_apb_if","id":7,"zf":1,"tc":100.00,"a":100.00},{"n":"work.cfs_apb_pkg","id":8,"zf":1,"tc":53.51,"g":53.51},{"n":"work.cfs_md_if","id":2,"zf":1,"tc":76.92,"a":76.92},{"n":"work.cfs_md_pkg","id":6,"zf":1,"tc":67.42,"g":67.42},{"n":"work.cfs_synch_fifo","id":18,"zf":1,"tc":100.00,"a":100.00},{"n":"work.uvm_ext_pkg","id":5,"zf":1,"tc":100.00,"g":100.00}]};
+processDuData(g_data);
