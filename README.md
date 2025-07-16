@@ -56,22 +56,52 @@ The aligner module uses two types of interfaces:
 
 ## 5. Sequence items:
 
+| Sequence item             |
+| ------------------------- |
+| cfs_apb_item_base         |
+| cfs_apb_item_drv          |
+| cfs_apb_item_mon          |
+| cfs_md_item_base          |
+| cfs_md_item_drv           |
+| cfs_md_item_drv_master    |
+| cfs_md_item_drv_slave     |
+| cfs_md_item_mon           |
+
+
 
 ## 6. Sequences:
 
-| Sequence                       |
-| -----------------------------  |
-
+| Sequence                                      |
+| --------------------------------------------- |
+| cfs_algn_virtual_sequence_reg_access_random   |
+| cfs_algn_virtual_sequence_reg_access_unmapped |
+| cfs_algn_virtual_sequence_reg_config          |
+| cfs_algn_virtual_sequence_reg_status          |
+| cfs_algn_virtual_sequence_rx_err              |
+| cfs_algn_virtual_sequence_rx                  |
+| cfs_algn_virtual_sequence_slow_pace           |
+| cfs_apb_sequence_base                         |   
+| cfs_apb_sequence_random                       |
+| cfs_apb_sequence_rw                           |
+| cfs_apb_sequence_simple                       |   
+| cfs_md_sequence_base                          |   
+| cfs_md_sequence_base_slave                    |
+| cfs_md_sequence_base_master                   |
+| cfs_md_sequence_simple_master                 |
+| cfs_md_sequence_simple_slave                  |
+| cfs_md_sequence_slave_response                |
+| cfs_md_sequence_slave_response_forever        |
 
 ## 7. Tests Scenarios:
-| Test                          | Scenario                                                                                  |
-| ----------------------------- | ----------------------------------------------------------------------------------------- |
-
+| Test                          | Scenario                                               |
+| ----------------------------- | ------------------------------------------------------ |
+| cfs_algn_test_reg_access      |                                                        |
+| cfs_algn_test_random          |                                                        |
+| cfs_algn_test_random_rx_err   |                                                        |
 
 ![image]()
 
 ## 8. Assertions:
-
 
 ![image]()
 
